@@ -1,0 +1,24 @@
+{
+  "name": "maqebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "startweb": "http-server ./web -p 8080 -c-1",
+    "build": "tsc",
+    "start": "node build/maqebot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "http-server": "^14.1.1",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}

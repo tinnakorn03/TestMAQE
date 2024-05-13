@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAQE Bot Simulation</title>
+    <style>
+        #canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <canvas id="canvas" width="800" height="600"></canvas>
+        <div style="flex: 1;">
+            <input style="padding: 10px; border-radius: 10px;" type="text" id="commandInput" value="RW15RW1" placeholder="Enter commands">
+            <button style="padding: 10px; border-radius: 10px; border-color: greenyellow;" onclick="runSimulation()">Submit</button>
+        </div>
+    </center>
+  
+    <script src="maqebot.js"></script>
+</body>
+</html>
